@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+* {
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    height: 100vh;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.converter-block {
+    height: 50vh;
+    background-color: #222;
+    border: 3px solid yellow;
+    border-radius: 5px;
+}
+
+.converter-block h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.converter {
+    text-align: center;
+    margin: 30px auto;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid yellow;
+}
+
+.converter div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.converter select {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.converter option {
+    background-color: #333;
+    color: white
+}
+
+.converter label {
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.converter input[type="number"] {
+    color: white;
+    width: 200px;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid yellow;
+    cursor: pointer;
+}
+
+.result {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
